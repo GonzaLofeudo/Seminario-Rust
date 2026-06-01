@@ -65,9 +65,7 @@ impl Auto {
                     | (Color::Negro, Color::Negro)
             )
     }
-}
 
-impl Auto {
     pub fn new(marca: String, modelo: String, anio: u32, precio_bruto: f64, color: Color) -> Self {
         Auto { marca, modelo, anio, precio_bruto, color }
     }

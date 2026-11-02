@@ -1,2 +1,43 @@
+# Compilación de Rust
 **/target/
+*.profraw
+lcov.info
+tarpaulin-report.html
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Editores, sistema operativo y herramientas locales
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.fleet/
+.direnv/
+.cache/
+.codex/
+.agents/
+
+# Variables locales y posibles credenciales
+.env
+.env.*
+!.env.example
+.aws/
+
+# Material teórico y diapositivas de clase
 **/*.pdf
+!Práctica 1/Práctica 1 2026.pdf
+!Práctica 2/Práctica 2 2026.pdf
+!Práctica 3/*ctica 3 2026.pdf
+!Práctica 4/*ctica 4 2026.pdf
+!Práctica 5/*ctica 5 2026.pdf
+!Entregables/**/*[Ee]ntregable*.pdf
+
+# El trabajo final se publicará en un repositorio independiente
+/Trabajo Final/
